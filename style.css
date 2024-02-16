@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'KOTRA_SONGEULSSI';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/KOTRA_SONGEULSSI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f7f2e7; /* Light paper-like background */
+    font-family: 'KOTRA_SONGEULSSI', serif; /* 새롭게 추가한 폰트를 첫 번째 폰트로 정의 */
+}
+
+.letter {
+    width: calc(100% - 80px);
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 20px auto; /* Center the letter in the page with some margin at the top and bottom */
+    background-image: repeating-linear-gradient(
+        white,
+        white 19px,
+        #f7f2e7 20px
+    );
+    background-attachment: local;
+    line-height: 180%; /* Line height to match the background lines */
+    padding: 20px; /* Padding around the text */
+    height: auto; /* Height adjusts to content */
+}
+
+p {
+    margin: 0 0 20px 0; /* Margin at the bottom of each paragraph to match line height */
+}
